@@ -37,9 +37,9 @@ Classify the email into EXACTLY one of these categories:
 {UNIVERSAL_CATEGORIES}
 
 Rules:
-- Use both subject and body.
-- Pick the most accurate universal category.
-- Only choose "other_issue" if none of the categories fit.
+Use both subject and body.
+Pick the most accurate universal category.
+Only choose "other_issue" if none of the categories fit.
 
 Email:
 Customer: {customer}
