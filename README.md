@@ -103,7 +103,7 @@ like  as right now things are based on past records and data
 we will have 2 basic agents which is the  Universal Category  Finder one and other Customer tag finder now we  will bring in an category creattor agent for example 
 for the new on boarding User of aur platform we wont be having the data how it assigns tag so for that we  that agent will identifu the new type or issue and insert into the category section and its 2nd task will be to do the mapping and add toh the two lists so onboarding of new user will become easy
 
-2 ) one more regulatory agent we can create which will review things after certain period of time and check if user is still following the same mapping technique or they have changed it cause as Humans Keep changing How they interact and define problems 
+2) one more regulatory agent we can create which will review things after certain period of time and check if user is still following the same mapping technique or they have changed it cause as Humans Keep changing How they interact and define problems 
 so that agent will after reviewing provide the updated details to the creator which build above so it will do its job of updating
 
 3) making it Multi multilingual  in Nature so sometime some things are in email content are written on metioned in differnt languages context so it should understand that too
