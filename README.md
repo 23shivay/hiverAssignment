@@ -2,8 +2,8 @@
 
 This project classifies customer support emails using a two-stage pipeline:
 
-1. **Stage 1:** The LLM predicts a universal category.
-2. **Stage 2:** The system maps that category to the correct customer-specific tag.
+**Stage 1:** The LLM predicts a universal category.
+**Stage 2:** The system maps that category to the correct customer-specific tag.
 
 This ensures accuracy, consistency, and strict customer isolation.
 
