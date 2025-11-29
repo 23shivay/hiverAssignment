@@ -13,11 +13,11 @@ This ensures accuracy, consistency, and strict customer isolation.
 
 The system uses a **universal-first classification workflow**:
 
-### ✔ Stage 1 — Universal Category  
+###  Stage 1  Universal Category  
 The LLM reads both **subject + body** and predicts one standardized category from a controlled list.  
 This avoids customer bias and keeps predictions stable.
 
-### ✔ Stage 2 — Customer Tag Mapping  
+###  Stage 2  Customer Tag Mapping  
 Each customer has their own taxonomy.  
 The model does *not* learn customer tags.  
 Instead, we map the universal category → customer tag **only in code**.
@@ -83,11 +83,11 @@ Return ONLY the category name.
 
 Customer isolation is handled through design-level controls rather than only prompt instructions.
 
-### ✔ 1. Universal Categories Prevent Cross-Customer Leakage
+### 1. Universal Categories Prevent Cross-Customer Leakage
 The model predicts **only high-level universal categories** that are the same across all customers.  
 This ensures the LLM never directly assigns customer-specific tags.
 
-### ✔ 2. Customer-Specific Tags Mapped in Code 
+###  2. Customer-Specific Tags Mapped in Code 
 Each customer maintains its own tagging dictionary:
 
 ```python
